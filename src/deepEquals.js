@@ -1,5 +1,5 @@
 // see https://stackoverflow.com/a/1144249/477480
-export default function deepEquals() {
+module.exports = function deepEquals() {
   let i, l, leftChain, rightChain;
 
   function compare2Objects(x, y) {

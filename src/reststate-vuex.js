@@ -1,5 +1,5 @@
-import { ResourceClient } from '@reststate/client';
-import deepEquals from './deepEquals';
+const { ResourceClient } = require('@reststate/client');
+const deepEquals = require('./deepEquals');
 
 const STATUS_INITIAL = 'INITIAL';
 const STATUS_LOADING = 'LOADING';
@@ -456,4 +456,4 @@ const mapResourceModules = ({ names, httpClient }) =>
     {},
   );
 
-export { resourceModule, mapResourceModules };
+module.exports = { resourceModule, mapResourceModules };

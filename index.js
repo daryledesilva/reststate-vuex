@@ -1,3 +1,3 @@
-import { resourceModule, mapResourceModules } from './src/reststate-vuex';
+const { resourceModule, mapResourceModules } = require('./src/reststate-vuex');
 
-export { resourceModule, mapResourceModules };
+module.exports = { resourceModule, mapResourceModules };
