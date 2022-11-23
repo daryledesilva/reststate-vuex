@@ -456,4 +456,4 @@ const mapResourceModules = ({ names, httpClient }) =>
     {},
   );
 
-module.exports = { resourceModule, mapResourceModules };
+module.exports = { resourceModule, mapResourceModules, matches, storeIncluded};
